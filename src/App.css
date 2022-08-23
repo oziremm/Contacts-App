@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container{
+  width: 400px;
+  background-color: rgb(56, 102, 161);
+  padding:25px;
+}
+
+input{
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul,li{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+.List{
+  margin:15px ;
+
+}
+.List> li{
+  background-color:rgb(187, 214, 238);
+  padding:5px;
+  margin-bottom:2px;
+  display:flex;
+  justify-content: space-between;
+}
+h1, p{text-align:center;}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  padding:5px;
+}
+
+
